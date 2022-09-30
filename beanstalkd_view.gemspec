@@ -21,8 +21,8 @@ Gem::Specification.new do |s|
   s.test_files    = Dir.glob("spec/**/*")
   s.require_paths = ["lib"]
 
-  s.add_dependency "sinatra",         ">= 1.3"
-  s.add_dependency "sinatra-contrib", ">= 1.3"
+  s.add_dependency "sinatra",         "~> 2.0"
+  s.add_dependency "sinatra-contrib", "~> 2.0"
   s.add_dependency "beaneater",       "~> 1.0"
   s.add_dependency "vegas",           "~> 0.1"
   s.add_dependency "json"
