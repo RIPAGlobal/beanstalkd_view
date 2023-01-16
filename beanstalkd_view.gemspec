@@ -21,19 +21,20 @@ Gem::Specification.new do |s|
   s.test_files    = Dir.glob("spec/**/*")
   s.require_paths = ["lib"]
 
-  s.add_dependency "sinatra",         "~> 2.0"
-  s.add_dependency "sinatra-contrib", "~> 2.0"
+  s.add_dependency "sinatra",         "~> 3.0"
+  s.add_dependency "sinatra-contrib", "~> 3.0"
   s.add_dependency "beaneater",       "~> 1.0"
   s.add_dependency "vegas",           "~> 0.1"
   s.add_dependency "json"
 
-  s.add_development_dependency "rake",       "~> 12.3"
-  s.add_development_dependency "rack-test",  "~> 1.1"
-  s.add_development_dependency "rspec",      "~> 3.8"
-  s.add_development_dependency "capybara",   "~> 3.2"
-  s.add_development_dependency "webdrivers", "~> 4.1"
-  s.add_development_dependency "puma",       "~> 4.1"
+  s.add_development_dependency "rake",       "~> 13.0"
+  s.add_development_dependency "rack-test",  "~> 2.0"
+  s.add_development_dependency "rspec",      "~> 3.12"
+  s.add_development_dependency "capybara",   "~> 3.38"
+  s.add_development_dependency "webdrivers", "~> 5.2"
+  s.add_development_dependency "puma",       "~> 6.0"
+  s.add_development_dependency "doggo",      "~> 1.2"
 
   # For Rails integration testing
-  s.add_development_dependency "rails", "~> 5.2"
+  s.add_development_dependency "rails", "~> 7.0"
 end
